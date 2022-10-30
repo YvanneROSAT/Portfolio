@@ -5,12 +5,12 @@ require('header_&_footer/header.php');
     <div class="row gy-4 gy-md-0">
 
         <!-- img -->
-        <div class="col-12 col-md-4 text-center overflow-auto" style="height: 400px;" id="profil">
-            <img src="image/profil.png" class="img-fluid" alt="Ma_photo_profil">
+        <div class="col-12 col-md-5 text-center overflow-auto">
+            <img src="image/profil.png" class="img-responsive img-fluid" alt="Ma_photo_profil">
         </div>
 
         <!-- text for me -->
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-7">
             <h1 class="mb-3 mb-md-5">Apprendre plus sur moi</h1>
             <div class="row">
                 <div class="col">
@@ -23,7 +23,7 @@ require('header_&_footer/header.php');
                 <div class="col">
                     <ul class="li">
                         <li><strong>Téléphone : </strong>+33 6 05 76 49 29</li>
-                        <li><strong>E-mail : </strong>contact@yvannerosat.com</li>
+                        <li><strong>Mail : </strong>contact@yvannerosat.com</li>
                         <li><strong>Adresse : </strong>Paris, Nemours</li>
                     </ul>
                 </div>
