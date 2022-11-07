@@ -38,7 +38,6 @@
                             <a class="nav-link active text-white" aria-current="page" href="Apropos.php">A propos</a>
                             <a class="nav-link active text-white" href="projet.php">Projet</a>
                             <a class="nav-link active text-white" href="https://blog.sniperdev.com/">Blog</a>
-                            <a class="nav-link active text-white" href="service.php">Services</a>
                             <a class="nav-link active text-white" href="VeilleTechno.php">Veille technologique</a>
                             <a class="nav-link active text-white" href="contact.php">Contact</a>
                         </div>
