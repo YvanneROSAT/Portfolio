@@ -28,10 +28,12 @@ require('header_&_footer/header.php');
                     </ul>
                 </div>
             </div>
-            <div class="col">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                    Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="col" id="Textpresent">
+                <p>Etant actuellement en deuxième année de BTS SIO option SLAM. j’ai acquis des compétences et connaissance que je
+                    souhaite transmattre a travers des templates de site web 
+                    déjà fait et à modifier selon vos besoin puis en tant qu’autoentrepreneur je propose mes services 
+                    en création de site internet de tout genre avec le CMS  WordPress pour des particuliers 
+                    et des PME afin de les aider à avoir une présence en ligne grâce à leur site consultable 24 h/24 h. </p>
             </div>
         </div>
     </div>
@@ -39,7 +41,7 @@ require('header_&_footer/header.php');
 
     <!-- My skills -->
     <div class="row">
-        <div class="col text-center my-5">
+        <div class="col my-5">
             <h1>Mes compétences</h1>
         </div>
     </div>
@@ -86,52 +88,47 @@ require('header_&_footer/header.php');
     <section>
         <div class="container">
 
-            <div class="section-title my-5 text-center">
+            <div class="section-title my-5">
                 <h1>Mon parcours</h1>
-                <p>scolaire</p>
+                <p class="text-center">scolaire</p>
             </div>
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h3 class="resume-title">Sumary</h3>
+                    <h3 class="resume-title">Mon histoire</h3>
+                    <h5>2001 - 2021</h5>
                     <div class="resume-item pb-0">
-                        <h4>Alice Barkley</h4>
-                        <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                        <h4></h4>
+                        <p>Née et grandi en RCA, j'ai passé la majeure partie de mon enfance et de ma jeunesse, puis je 
+                            suis venue en France le 11 mars 2020 pour continuer mes études et voir ma famille.</p>
                         <p>
-                        <ul>
-                            <li>Portland par 127,Orlando, FL</li>
-                            <li>(123) 456-7891</li>
-                            <li>alice.barkley@example.com</li>
-                        </ul>
-                        </p>
                     </div>
 
-                    <h3 class="resume-title">Education</h3>
+                    <h3 class="resume-title">Lycée Etienne Bezout</h3>
                     <div class="resume-item">
-                        <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2015 - 2016</h5>
-                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                        <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                        <h5>2020 - 2021</h5>
+                        <p>Arrivé en France le 11 mars 2020, j'ai passé une année blanche puis repris le BAC de 
+                            Français de première et fais la classe de terminale STMG en une seule année (2020-2021). J'obtiens 
+                            mon Bac avec mention Assez-bien avec un diplôme de mérite décerné par mon lycée.</p>
                     </div>
-                    <div class="resume-item">
-                        <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2010 - 2014</h5>
-                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                    <h3 class="resume-title">Campus Saint Aspais de Melun</h3>
+                    <div class="resume-item">   
+                        <h5>2021 - 2023</h5>
+                        <p>Actuellement en BTS SIO option SLAM, je réalise mon rêve
+                             et ma passion qui ai d'apprendre l'informatique.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
-                    <h3 class="resume-title">Professional Experience</h3>
+                    <h3 class="resume-title">Stage au poste de développeur web</h3>
                     <div class="resume-item">
-                        <h4>Senior graphic design specialist</h4>
-                        <h5>2019 - Present</h5>
-                        <p><em>Experion, New York, NY </em></p>
+                        <h4>Campus saint aspais de melun</h4>
+                        <h5>30 mai 2022 - 7 juillet 2022</h5>
+                        <p><em>Mission</em></p>
                         <p>
                         <ul>
-                            <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                            <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                            <li>Réalisation d'un site de streaming</li>
+                            <li>Réalisation d'un projets web en équipe qui est un <a href="http://gestufa.alwaysdata.net/">Annuaire Web</a>, a la fin de notre stage est utilisé par le campus.</li>
                         </ul>
                         </p>
                     </div>

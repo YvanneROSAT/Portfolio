@@ -5,10 +5,10 @@ require('header_&_footer/header.php');
 
 <!-- My home page -->
 <section class="mt-5" id="home">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row align-items-center">
-      <div class="col-12 col-sm-6 col-md-6 mt-5">
-        <h1 id="Tbonjour">Bonjour</h1>
+      <div class="col-12 col-sm-6 col-md-6">
+        <h1 class="text-center" id="Tbonjour">Bonjour</h1>
         <h5 class="text-center text-white">Je suis à la recherche d'un stage en tant que développeur web, du 02 janvier au 3 février 2023.</h5>
         <div class="row justify-content-center">
           <div class="col text-center">

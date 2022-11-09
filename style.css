@@ -2,7 +2,7 @@ html,
 body {
   color: #fff7f0;
   margin: 0;
-  background-image: url("image/bg_yvanne1\ \(1\).png");
+  background-image: url("image/bg_yvanne.png");
   background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,6 +20,12 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
   color: #ff7f00;
 }
+
+/* Title */
+h1 {
+  text-align: center;
+}
+
 p,
 a,
 .li,
@@ -32,7 +38,6 @@ a,
 .bgOpacity {
   background-color: black;
   opacity: 0.8;
-  
 }
 
 /* taille du text bonjour */
@@ -56,3 +61,17 @@ li::marker {
   background-color: #ff7f00;
   color: #ff7f00;
 }
+
+/* accueil */
+#home {
+  padding-top: 120px;
+}
+
+/* A propos */
+/* .li {
+  font-size: 14px;
+}
+
+#Textpresent {
+  font-size: 20px;
+} */

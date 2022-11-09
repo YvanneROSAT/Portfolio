@@ -20,7 +20,7 @@
     <title>Mon portfolio</title>
 </head>
 
-<body style="background-color: #000000;">
+<body>
 
     <div class="container-fluid mb-5">
         <div class="row">
