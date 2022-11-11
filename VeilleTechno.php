@@ -3,20 +3,25 @@ require('header_&_footer/header.php');
 ?>
 
 <div class="container">
-    <div class="row">
+    <div class="row bgOpacity">
         <h1> Ma veille technologique</h1>
         <p><strong>Définition</strong>La veille technologique consiste à s’informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale et ainsi rester informé sur les nouveautés. Je réalise ma veille à l’aide de mots-clés et de flux RSS</p>
         <h1>Outil</h1>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="image/feedly2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="image/feedly.jpg" class="d-block w-100" alt="...">
+
+        <div class="row justify-content-center">
+            <div id="carouselExampleSlidesOnly" class="carousel slide w-50" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/feedly2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/feedly.jpg" class="d-block w-100" alt="feedly">
+                    </div>
                 </div>
             </div>
         </div>
+
+
         <h1>La blockchain</h1>
         <p>J’ai choisi comme thème de ma veille technologique, l’écosystème tout autour de la blockchain.</p>
         <h3>Définition de la blockchain</h3>
@@ -33,11 +38,13 @@ require('header_&_footer/header.php');
         </div>
 
         <h1>Mes sources</h1>
-        <div class="card bg-dark" style="width: 18rem;">
-            <img src="image/blockchain-france.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Blog blockchain france</h5>
-                <a href="#" class="btn btn-primary text-white">Voir le site</a>
+        <div class="row justify-content-center mb-5">
+            <div class="card bg-dark text-center" style="width: 18rem;">
+                <img src="image/blockchain-france.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blog blockchain france</h5>
+                    <a href="https://blockchainfrance.net/" class="btn btn-primary text-white">Voir le site</a>
+                </div>
             </div>
         </div>
     </div>
