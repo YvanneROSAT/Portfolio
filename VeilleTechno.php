@@ -3,10 +3,10 @@ require('header_&_footer/header.php');
 ?>
 
 <div class="container">
-    <div class="row bgOpacity">
+    <div class="row bgOpacity my-5 rounded-5">
         <h1> Ma veille technologique</h1>
         <p><strong>Définition</strong>La veille technologique consiste à s’informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale et ainsi rester informé sur les nouveautés. Je réalise ma veille à l’aide de mots-clés et de flux RSS</p>
-        <h1>Outil</h1>
+        <h1 id="spaceTop">Outil</h1>
 
         <div class="row justify-content-center">
             <div id="carouselExampleSlidesOnly" class="carousel slide w-50" data-bs-ride="carousel">
@@ -22,14 +22,14 @@ require('header_&_footer/header.php');
         </div>
 
 
-        <h1>La blockchain</h1>
-        <p>J’ai choisi comme thème de ma veille technologique, l’écosystème tout autour de la blockchain.</p>
+        <h1 id="spaceTop">La blockchain</h1>
+        <p class="text-center">J’ai choisi comme thème de ma veille technologique, l’écosystème tout autour de la blockchain.</p>
         <h3>Définition de la blockchain</h3>
         <p>Selon le site jesuisundev.com : "La Blockchain est une technologie de stockage et d’échange de données numériques qui est décentralisée et infalsifiable."</p>
         <p>Voici une vidéo d‘OWEN SIMONIN qui explique de manière plus simple la technologie blockcahain : </p>
 
         <!-- Videos explicative -->
-        <div class="col">
+        <div class="col mt-5">
             <div style="padding:50% 0 0 0;position:relative;">
                 <iframe src="https://player.vimeo.com/video/765228179?h=7be7f0bc9f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Definition_de_la_blockchain">
                 </iframe>
@@ -37,9 +37,9 @@ require('header_&_footer/header.php');
             <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
 
-        <h1>Mes sources</h1>
+        <h1 id="spaceTop">Mes sources</h1>
         <div class="row justify-content-center mb-5">
-            <div class="card bg-dark text-center" style="width: 18rem;">
+            <div class="card bg-primary text-center" style="width: 18rem;">
                 <img src="image/blockchain-france.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Blog blockchain france</h5>

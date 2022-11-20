@@ -2,9 +2,9 @@
 require('header_&_footer/header.php');
 ?>
 
-<section class="bgOpacity">
-    <div class="container">
-        <div class="row">
+<section>
+    <div class="container my-5">
+        <div class="row bgOpacity rounded-5">
             <div class="row">
                 <div class="col">
                     <h1>Mes projets</h1>
@@ -13,9 +13,9 @@ require('header_&_footer/header.php');
             <!-- project -->
             <div class="row">
                 <div class="col">
-                    <div class="row g-0 bg-dark position-relative">
+                    <div class="row g-0 bg-dark position-relative rounded-5 mb-3">
                         <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/project/gestufa.png" class="w-100" alt="...">
+                            <img src="image/project/gestufa.png" class="w-100 rounded-3" alt="...">
                         </div>
                         <div class="col-md-6 p-4 ps-md-0">
                             <h5 class="mt-0">Annuaire web</h5>
@@ -24,9 +24,9 @@ require('header_&_footer/header.php');
                             <a href="#" class="btn">Le rapport de stage</a>
                         </div>
                     </div>
-                    <div class="row g-0 bg-dark position-relative">
+                    <div class="row g-0 bg-dark position-relative rounded-5">
                         <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/project/Wir.png" class="w-100" alt="...">
+                            <img src="image/project/Wir.png" class="w-100 rounded-3" alt="...">
                         </div>
                         <div class="col-md-6 p-4 ps-md-0">
                             <h5 class="mt-0">Site e-commerce</h5>

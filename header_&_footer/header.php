@@ -15,35 +15,35 @@
     <!-- End import font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Trirong:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 
     <title>Mon portfolio</title>
 </head>
 
 <body>
-
-    <div class="container-fluid mb-5">
-        <div class="row">
-            <!-- My Nav-bar -->
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.php">
-                        <img src="image/Sniper_code.png" alt="Yvanne-rosat" width="80" height="74" />
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon bg-light rounded"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                        <div class="navbar-nav text-center justify-content-center">
-                            <a class="nav-link active text-white" aria-current="page" href="Apropos.php">A propos</a>
-                            <a class="nav-link active text-white" href="projet.php">Projet</a>
-                            <a class="nav-link active text-white" href="https://blog.sniperdev.com/">Blog</a>
-                            <a class="nav-link active text-white" href="VeilleTechno.php">Veille technologique</a>
-                            <a class="nav-link active text-white" href="contact.php">Contact</a>
+    <div>
+            <div class="container-fluid mb-5">
+                <div class="row">
+                    <!-- My Nav-bar -->
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.php">
+                                <img src="image/Sniper_code.png" alt="Yvanne-rosat" width="80" height="74" />
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon bg-light rounded"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                                <div class="navbar-nav text-center justify-content-center">
+                                    <a class="nav-link active text-white" aria-current="page" href="Apropos.php">A propos</a>
+                                    <a class="nav-link active text-white" href="projet.php">Projet</a>
+                                    <a class="nav-link active text-white" href="https://blog.sniperdev.com/">Blog</a>
+                                    <a class="nav-link active text-white" href="VeilleTechno.php">Veille technologique</a>
+                                    <a class="nav-link active text-white" href="contact.php">Contact</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
-            </nav>
-        </div>
-    </div>
+            </div>
             <!-- End Navbar -->
